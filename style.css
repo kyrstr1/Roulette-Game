@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.balance {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.bet-inputs {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    color: #000000;
+}
+
+input {
+    padding: 8px;
+    margin-left: 10px;
+    font-size: 0.8em;
+    border: 2px solid #000000;
+    border-radius: 29px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #148f31;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #19bb3c;
+}
+
+.roulette-numbers {
+    margin-top: 20px;
+    font-size: 3em;
+    font-weight: bold;
+    color: #000000;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #fe0019;
+}
